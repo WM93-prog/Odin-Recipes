@@ -1,0 +1,47 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: darkblue; 
+    
+    
+}
+
+h1{
+    color: darkred;
+}
+
+img{
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+}
+
+
+
+.container,
+.text{
+    font-size: large;
+    color: red;
+    list-style: none;
+
+}
+
+ul li{
+    color: white;
+    list-style: none;
+
+}
+
+.btnStack{
+    font-family: Oswald;
+  background-color: orange;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  
+
+}

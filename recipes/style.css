@@ -36,5 +36,18 @@ ol{
   font-size: 14px;
   font-weight: normal;
   
+}
 
+.btnstyle{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #333333;
+}
+
+a{
+    color: white;
+}
+.adjimg{
+    width: 600px;
+    height: 600px;
 }

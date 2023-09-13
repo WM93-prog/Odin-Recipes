@@ -2,13 +2,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: darkblue; 
     
-    
-}
-p{
-    color: beige;
-}
-h1{
-    color: darkred;
 }
 
 img{
@@ -16,31 +9,59 @@ img{
     border-radius: 4px;
     padding: 5px;
     width: auto;
-}
-
-a{
-    color: #000;
+    margin: 20px;
 }
 
 
-.container,
-.text{
-    font-size: large;
-    color: red;
-    list-style: none;
+p,
+ul,
+h1,
+h2,
+a,
+.margin{
+    color:white; 
+}
+
+span{
+    display: inline-block;
+    padding: 8px;
+    border: #000 solid;
+    background-color:rebeccapurple;
+    
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: left;
+}
+
+.recipe-items{
+    border: 2px;
+    background-color: rebeccapurple;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.recipe-one,
+.recipe-two,
+.recipe-three
+{
+    border: 2px solid black ;
+    margin: 5px;
+    padding: 2px;
+}
+
+.recipe-items a:hover{
+    background-color: lightgray;
+    opacity: 1;
 
 }
 
-ul li{
-    color: white;
-    list-style: none;
-
-}
-
-.btnStack{
-    font-family: Oswald;
-  background-color: darkred;
-  color: #000;
+/* .btnStack{
+  font-family: Oswald;
+  color: white;
   text-decoration: none;
   display: inline-block;
   padding: 6px 12px;
@@ -48,5 +69,18 @@ ul li{
   font-size: 14px;
   font-weight: normal;
   
+} */
 
+/* .link-list a{
+    background-color: white;
+    border: 5px;
+    color: #000;
+    text-decoration:wavy;
+    padding: 10px;
+    margin: 10px;
+    
+} */
+
+.link-list a:hover {
+    background-color: pink;
 }
